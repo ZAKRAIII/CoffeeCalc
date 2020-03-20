@@ -1,10 +1,10 @@
 //-497025
-#include "HX711.h"
-#include "pitches.h"
+#include "src\HX711-master\src\HX711.h"
+#include "src\pitches\pitches.h"
 #include <Wire.h>
-#include <LiquidCrystal_I2C.h>
-#include <JC_Button.h>
-#include "RunningAverage.h"
+#include "src\NewliquidCrystal\LiquidCrystal_I2C.h"
+#include "src\JC_Button-master\src\JC_Button.h"
+#include "src\RunningAverage\RunningAverage.h"
 
 
 #define BUZZER 8
